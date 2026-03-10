@@ -1,0 +1,14 @@
+CREATE TABLE metric (
+ id INTEGER PRIMARY KEY AUTOINCREMENT,
+ time TEXT,
+ name TEXT,
+ value REAL,
+ unit TEXT
+);
+
+CREATE TABLE event (
+ id INTEGER PRIMARY KEY AUTOINCREMENT,
+ time TEXT,
+ type TEXT,
+ text TEXT
+);
